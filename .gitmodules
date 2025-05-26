@@ -1,0 +1,8 @@
+[submodule "unilidar_sdk"]
+	path = Drivers/unilidar_sdk
+	url = https://github.com/CPP-Aerial-Vision-Analysis-System/unilidar_sdk.git
+    branch = ros1
+
+[submodule "rplidar_ros"]
+	path = Drivers/rplidar_ros
+	url = https://github.com/Slamtec/rplidar_ros.git
