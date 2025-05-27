@@ -6,3 +6,11 @@
 [submodule "rplidar_ros"]
 	path = Drivers/rplidar_ros
 	url = https://github.com/Slamtec/rplidar_ros.git
+
+[submodule "iq_gnc"]
+	path = Simulation/ROS-IQ-Tutorials/iq_gnc
+	url = https://github.com/CPP-Aerial-Vision-Analysis-System/iq_gnc.git
+
+[submodule "iq_sim"]
+	path = Simulation/ROS-IQ-Tutorials/iq_gnc
+	url = https://github.com/CPP-Aerial-Vision-Analysis-System/iq_sim.git
