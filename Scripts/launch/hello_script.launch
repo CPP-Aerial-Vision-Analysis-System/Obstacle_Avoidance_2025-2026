@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="Scripts"
+                type="runSitl.sh" name="runSitl"
+                output="screen"
+        />
+</launch>
