@@ -1,8 +1,8 @@
 # Obstacle_Avoidance_2025-2026
 A repository containing Project Astra Obstacle Avoidance team's ROS packages and tools.
 
-# Prerequisites
-Ubuntu 20.04
+## Prerequisites
+**Ubuntu 20.04**
 
 ROS noetic:<br/>
 https://wiki.ros.org/ROS/Installation/TwoLineInstall/
@@ -17,7 +17,7 @@ Gazebo:<br/>
 https://github.com/khancyr/ardupilot_gazebo
 
 
-# Usage
+## Usage
 `cd ~/catkin_ws/src`
 
 `git clone --recurse-submodules https://github.com/CPP-Aerial-Vision-Analysis-System/Obstacle_Avoidance_2025-2026.git`
@@ -26,7 +26,7 @@ https://github.com/khancyr/ardupilot_gazebo
 
 `catkin_make`
 
-# Currently working one line node/sim scripts:
+## Currently working one line node/sim scripts:
 Launch unilidar_ros node:<br/>
 `roslaunch unitree_lidar_ros run.launch`<br/>
 documentation here: https://github.com/unitreerobotics/unilidar_sdk/tree/main/unitree_lidar_ros/src/unitree_lidar_ros
