@@ -2,13 +2,13 @@
 A repository containing Project Astra Obstacle Avoidance team's ROS packages and tools.
 
 # Prerequisites
-https://wiki.ros.org/ROS/Installation/TwoLineInstall/
+ROS noetic: https://wiki.ros.org/ROS/Installation/TwoLineInstall/
 
-https://ardupilot.org/dev/docs/building-setup-linux.html
+ardupilot: https://ardupilot.org/dev/docs/building-setup-linux.html
 
-https://ardupilot.org/dev/docs/ros-install.html
+MAVROS: https://ardupilot.org/dev/docs/ros-install.html
 
-https://github.com/khancyr/ardupilot_gazebo
+Gazebo: https://github.com/khancyr/ardupilot_gazebo
 
 
 # Usage
