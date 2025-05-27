@@ -2,6 +2,8 @@
 A repository containing Project Astra Obstacle Avoidance team's ROS packages and tools.
 
 # Prerequisites
+Ubuntu 20.04
+
 ROS noetic:<br/>
 https://wiki.ros.org/ROS/Installation/TwoLineInstall/
 
