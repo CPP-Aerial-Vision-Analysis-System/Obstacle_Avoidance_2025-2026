@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="Scripts"
+                type="runIQsim.sh" name="runIQsim"
+                output="screen"
+        />
+</launch>
