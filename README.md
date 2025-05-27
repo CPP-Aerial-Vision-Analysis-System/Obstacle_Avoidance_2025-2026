@@ -24,11 +24,9 @@ https://github.com/khancyr/ardupilot_gazebo
 
 `catkin_make`
 
-# Currently working one line ROS launches:
+# Currently working one line node/sim scripts:
 Launch an iris drone with a simulated 3D LiDAR:<br/>
 `roslaunch velodyne_description iris-unitree.launch # add gpu:=true if not running linux on a VM`
-
-
 
 Launch 2D avoidance using the method of potential fields:<br/>
 `sh src/Obstacle_Avoidance_2025-2026/Scripts/script/runIQsim.sh`
