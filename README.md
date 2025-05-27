@@ -21,4 +21,4 @@ https://github.com/khancyr/ardupilot_gazebo
 `catkin_make`
 
 # Currently working one line ROS launches:
-`roslaunch velodyne_description iris-unitree.launch`
+launch an iris drone with a simulated 3D LiDAR: `roslaunch velodyne_description iris-unitree.launch`
