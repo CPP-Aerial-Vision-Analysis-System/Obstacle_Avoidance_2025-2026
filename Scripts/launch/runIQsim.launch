@@ -1,6 +1,21 @@
 <launch>
-        <node pkg="Scripts"
-                type="runIQsim.sh" name="runIQsim"
+        
+        <include file="$(find iq_sim)/launch/lidar.launch"/>
+
+        <node
+                pkg="Scripts"
+                type="runSitl.sh"
+                name="runSitl"
                 output="screen"
         />
+
+        <include file="$(find iq_gnc)/launch/apm.launch"/>
+
+        <node 
+                pkg = "iq_gnc"
+                type = "avoidance_sol"
+                name = "avoidance_sol"
+                output = "screen"
+        />
+
 </launch>
