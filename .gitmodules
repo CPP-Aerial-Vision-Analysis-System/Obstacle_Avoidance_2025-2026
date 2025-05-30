@@ -18,3 +18,7 @@
 [submodule "velodyne_simulator"]
 	path = Simulation/velodyne_simulator
 	url = https://github.com/CPP-Aerial-Vision-Analysis-System/velodyne_simulator.git
+
+[submodule "pointcloud2_to_apm"]
+	path = pointcloud2_to_apm
+	url = https://github.com/CPP-Aerial-Vision-Analysis-System/pointcloud2_to_apm.git
