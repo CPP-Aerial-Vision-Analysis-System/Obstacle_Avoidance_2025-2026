@@ -50,6 +50,6 @@
     
 	</include>
 
-  <remap from="/mavros/obstacle/send" to="/scan" />
+  <!-- <remap from="/mavros/obstacle/send" to="/scan" /> -->
 
 </launch>
