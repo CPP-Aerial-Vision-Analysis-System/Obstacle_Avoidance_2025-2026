@@ -30,7 +30,7 @@ def main():
             obstacle_id = 65535, # max uint16_t
             x = 0,
             y = 0,
-            z = 0,
+            z = -1,
             min_distance = .2,
             max_distance = 25
         )

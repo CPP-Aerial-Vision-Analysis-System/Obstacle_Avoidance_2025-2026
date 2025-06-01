@@ -38,7 +38,7 @@
 	<arg name="config_yaml" default="$(find mavros)/launch/apm_config.yaml" />
 
 	<include file="$(find mavros)/launch/node.launch">
-		<arg name="pluginlists_yaml" value="$(find mavros)/launch/apm_pluginlists.yaml" />
+		<arg name="pluginlists_yaml" value="$(find suas_sim)/launch/apm_pluginlists_unitree.yaml" />
 		<arg name="config_yaml" value="$(arg config_yaml)" />
 		<arg name="fcu_url" value="$(arg fcu_url)" />
 		<arg name="gcs_url" value="$(arg gcs_url)" />
