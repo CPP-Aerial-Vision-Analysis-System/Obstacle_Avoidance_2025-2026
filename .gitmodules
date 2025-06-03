@@ -13,7 +13,7 @@
 
 [submodule "iq_sim"]
 	path = Simulation/ROS-IQ-Tutorials/iq_sim
-	url = https://github.com/CPP-Aerial-Vision-Analysis-System/iq_sim.git
+	url = https://github.com/Intelligent-Quads/iq_sim
 
 [submodule "velodyne_simulator"]
 	path = Simulation/velodyne_simulator
