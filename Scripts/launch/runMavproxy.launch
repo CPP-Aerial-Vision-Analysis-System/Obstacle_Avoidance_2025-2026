@@ -1,0 +1,6 @@
+<launch>
+        <node pkg="Scripts"
+                type="runMavproxy.sh" name="runMavproxy"
+                output="screen"
+        />
+</launch>
