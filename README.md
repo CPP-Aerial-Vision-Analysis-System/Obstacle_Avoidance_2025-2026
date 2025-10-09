@@ -36,7 +36,7 @@ Launch rplidar_ros node:<br/>
 documentation here: https://github.com/Slamtec/rplidar_ros
 
 Launch an iris drone with a simulated 3D LiDAR:<br/>
-`roslaunch velodyne_description iris-unitree.launch # add gpu:=true if not running linux on a VM`
+`roslaunch suas-sim iris-unitree.launch # add gpu:=true if not running linux on a VM`
 
 Launch 2D avoidance using the method of potential fields:<br/>
-`roslaunch Scripts runIQsim.launch`
+`roslaunch suas-sim iris-rplidar.launch`
