@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "point_read = point_cloud2.pointcloud2_to_mavros_ROS2:main",
+            "move_if_work = point_cloud2.move_if_work:main"
         ],
     },
 )
