@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#!/usr/bin/env python3
 
 import rclpy                                     #ROS 2 Python client library
 from mavros_msgs.msg import Mavlink              #MAVLink Ros 2 message type
@@ -18,7 +18,7 @@ def main(args = None):
     rclpy.init(args=args)   #init ros2 communication protocol
     obstacleTestNode = rclpy.create_node('send_obstacle_3D_test')
     rate = obstacleTestNode.create_rate(10) #loop at 10 Hz
-    pub = obstacleTestNode.create_publisher(Mavlink,"/mavlink/to",20)
+    pub = obstacleTestNode.create_publisher(Mavlink,"/uas1/mavlink_sink",20)
  
     while rclpy.ok():
         # create the OBSTACLE_DISTANCE_3D data structure
@@ -28,7 +28,7 @@ def main(args = None):
             frame = mavlink2.MAV_FRAME_BODY_FRD,
             obstacle_id = 65535, # max uint16_t
             x = 1,
-            y = 0,
+            y = 5,
             z = 0,
             min_distance = .2,
             max_distance = 25
@@ -43,8 +43,9 @@ def main(args = None):
         rosmsg.magic = mavlink2.PROTOCOL_MARKER_V2
 
         pub.publish(rosmsg) #send message
+        print(f"[{obstacleTestNode.get_name()}] Published obstacle_3d at {time.time():.2f}s")
 
-        #rate.sleep()        #maintain loop rate
+        time.sleep(0.1)        #maintain loop rate
 
     rclpy.spin(obstacleTestNode)
     #obstacleTestNode.destroy_node()
